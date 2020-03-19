@@ -38,6 +38,9 @@ public class Recap {
 		
 		System.out.println("The value of s1 = "+s1);
 		System.out.println("The value of s2 = "+s2);
+		
+		System.out.println("------------------------------------------------------------");
+		
 
 	}
 
