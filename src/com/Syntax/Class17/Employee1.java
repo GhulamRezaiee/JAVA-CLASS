@@ -7,7 +7,7 @@ public class Employee1 {
 	
 	public String name; //accessible everywhere
 	protected String lastName; //accessible within same package
-	double salary; // accessible within same package (default)
+	double salary; // default - accessible within same package (default)
 	private long ssn; // accessible only within same class
 	
 	public static void method1() { // accessible everywhere
@@ -18,7 +18,7 @@ public class Employee1 {
 		System.out.println("I am protected method");
 	}
 	
-	void method3 () { // accessible within same package (default)
+	void method3 () { // default - accessible within same package (default)
 		System.out.println("I am default method");
 	}
 	
