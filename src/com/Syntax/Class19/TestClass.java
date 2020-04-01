@@ -19,8 +19,8 @@ public class TestClass {
 		dog.eat();
 		dog.sleep();
 		
-		dog.age = 2;
-		dog.display();
+		Dog.age = 2;
+		Dog.display();
 		
 		Animals animal = new Animals();
 		//can access only features define within its own class
