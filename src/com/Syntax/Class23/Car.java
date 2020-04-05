@@ -27,6 +27,9 @@ class BMW extends Car {
 		System.out.println(make + " starts by pushing button");
 	}
 	
+	public void navigate() {
+		System.out.println("BMW can navigate.");
+	}
 }
 
 class Mercedes extends Car{
