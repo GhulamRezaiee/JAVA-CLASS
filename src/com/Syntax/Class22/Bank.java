@@ -1,10 +1,10 @@
 package com.Syntax.Class22;
 
-public class Bnak {
+public class Bank {
 	
 	double money, fee;
 	
-	public Bnak (double money) {
+	public Bank (double money) {
 		this.money = money;
 	}
 	
@@ -19,7 +19,7 @@ public class Bnak {
 
 
 
-class BOA extends Bnak{
+class BOA extends Bank{
 	public BOA (double money) {
 		super(money);
 	}
@@ -27,7 +27,7 @@ class BOA extends Bnak{
 
 
 
-class PNC extends Bnak{
+class PNC extends Bank{
 	public PNC (double money) {
 		super(money);
 	}
@@ -42,7 +42,7 @@ class PNC extends Bnak{
 	}	
 }
 
-class TD extends Bnak{
+class TD extends Bank{
 	public TD (double money) { 
 		super(money);
 	}

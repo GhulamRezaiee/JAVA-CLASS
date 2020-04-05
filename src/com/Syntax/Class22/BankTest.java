@@ -3,7 +3,7 @@ package com.Syntax.Class22;
 public class BankTest {
 	public static void main(String[] args) {
 			
-		Bnak bank = new Bnak(700);
+		Bank bank = new Bank(700);
 		double fee = bank.chargeFee();
 		System.out.println("Bank Fee: "+fee);
 		
