@@ -10,7 +10,7 @@ public class Garage {
 		car1.color = "Blue";
 
 		System.out.println(car1.make);
-		// accesing behavior/methods of Car with car1
+		// Accessing behavior/methods of Car with car1
 		
 		car1.accelerate();
 		car1.makeNoise();
@@ -23,7 +23,7 @@ public class Garage {
 		car2.year = 2019;
 		car2.color = "Pink";
 
-		// accesing behavior/methods of Car with car2
+		// Accessing behavior/methods of Car with car2
 
 		car2.stop();
 		car2.makeNoise();
