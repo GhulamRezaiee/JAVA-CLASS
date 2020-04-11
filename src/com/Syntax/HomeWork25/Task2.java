@@ -1,4 +1,4 @@
-package com.Syntax.HomeWork;
+package com.Syntax.HomeWork25;
 
 /*
  * We have to calculate the average of marks obtained in three subjects by

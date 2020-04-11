@@ -1,4 +1,4 @@
-package com.Syntax.HomeWork;
+package com.Syntax.HomeWork25;
 
 public class Task1 {
 	/*

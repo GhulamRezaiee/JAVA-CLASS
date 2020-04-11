@@ -1,4 +1,4 @@
-package com.Syntax.HomeWork;
+package com.Syntax.HomeWork25;
 
 public class Task2Test {
 	public static void main(String[] args) {
