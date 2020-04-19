@@ -1,5 +1,8 @@
 package com.Syntax.Class29;
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
 
 public class HW {
 	public static void main(String [] args) {
@@ -22,6 +25,38 @@ public class HW {
 		System.out.println("Number of Entry is: "+building.size());
 		
 		System.out.println("--------------------------------------");
+		
+		// how to get all keys
+		Set<Integer> keys = building.keySet();
+		System.out.println(building.keySet());
+		System.out.println("----------use iterator to reterieve keys one by one");
+		
+		Iterator <Integer> keyIt = keys.iterator();
+		while(keyIt.hasNext()) {
+			int key = keyIt.next();
+			System.out.println("Key is "+key+" and its value is "+ building.get(key));
+		}
+		// getting value of key and value by for each loop
+		for(Integer key:keys) {
+			System.out.println("key from building map is "+key+" and the value is "+building.get(key));
+		}
+		System.out.println("--------------------------------------------------");
+
+		//how to get all values
+		Collection<String> values = building.values();
+		System.out.println("----getting all values using for each loop -----");
+		for(String value: values) {
+			System.out.println("The value is: "+value);
+		}
+		
+		System.out.println("-------getting all values using iterator---------");
+		
+		Iterator <String> value = values.iterator();
+		
+		while(value.hasNext()){
+			System.out.println("value is "+value.next());
+		}
+		
 		//Update company on a 4th floor 
 		building.replace(4, "HBO");
 		System.out.println("replace 4th floor company with HBO");
