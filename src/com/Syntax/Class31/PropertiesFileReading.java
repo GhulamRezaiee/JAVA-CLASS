@@ -1,4 +1,4 @@
-package com.Syntax.Calss31;
+package com.Syntax.Class31;
 //Shortcut for import for windows ctrl+shift+O // for mac command+shift+o
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

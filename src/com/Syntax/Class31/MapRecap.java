@@ -1,4 +1,4 @@
-package com.Syntax.Calss31;
+package com.Syntax.Class31;
 
 import java.util.Collection;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.Syntax.Calss31;
+package com.Syntax.Class31;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

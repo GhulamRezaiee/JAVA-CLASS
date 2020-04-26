@@ -1,4 +1,4 @@
-package com.Syntax.Calss17_1;
+package com.Syntax.Class17_1;
 
 import com.Syntax.Class17.*;
 
