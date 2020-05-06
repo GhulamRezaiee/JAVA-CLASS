@@ -29,6 +29,7 @@ public class Task02 {
 				System.out.println("Please take a degree.");
 			
 		}
+		scan.close();
 			
 			
 	}

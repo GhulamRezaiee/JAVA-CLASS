@@ -66,7 +66,7 @@ public class Task01 {
 	
 	System.out.println("Congratulation! You are the winner.");
 	
-	
+	scan.close();
 	}
 
 }

@@ -1,5 +1,4 @@
 package com.Syntax.Class01;
-import java.util.Scanner;
 import java.lang.Math;
 
 public class Test2 {

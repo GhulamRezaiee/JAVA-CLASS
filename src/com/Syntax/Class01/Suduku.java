@@ -1,5 +1,5 @@
 package com.Syntax.Class01;
-import java.util.Scanner;
+
 
 public class Suduku {
 

@@ -19,6 +19,7 @@ public class Task01_1 {
 			else
 				System.out.println("I will buy the house and pay cash for it");
 		}
+		scan.close();
 	}
 
 }

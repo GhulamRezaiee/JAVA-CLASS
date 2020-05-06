@@ -15,10 +15,10 @@ public class MethodsReturningValue {
 		}
 		// compare 2 numbers and then we identify whether largest number is even or odd
 
-		String str1 = "Hi";
-		char character = str1.charAt(1);
+		//String str1 = "Hi";
+		//char character = str1.charAt(1);
 
-		Methods obj = new Methods();
+		//Methods obj = new Methods();
 		// int num=obj.isLarger(10, 20);CE since isLarger does not return any value
 		// int num=obj.largest(12,13);
 

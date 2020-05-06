@@ -27,6 +27,7 @@ public class TestCase {
 			}
 			System.out.print(i + " ");
 		}
+		input.close();
 		
 	}
 }

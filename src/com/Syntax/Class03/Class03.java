@@ -1,7 +1,5 @@
 package com.Syntax.Class03;
 
-import java.util.Scanner;
-
 public class Class03 {
 	public static void main(String[] args) {
 

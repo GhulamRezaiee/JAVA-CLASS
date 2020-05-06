@@ -40,7 +40,7 @@ public class Task01 {
 		
 		System.out.println("The temperature is the city " + cityName + " is "+ cTemp +" celsius.");
 		
-		
+		scan.close();
 		
 		
 	}

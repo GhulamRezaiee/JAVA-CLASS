@@ -31,7 +31,8 @@ public class Class02 {
 				break;
 			System.out.print("Wrong number, Please Enter a hole number between 1 to 20 = ");
 		}
-		return value;	
+		scanner.close();
+		return value;
 	}
 	
 	public static long factorial (int number) {
